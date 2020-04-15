@@ -15,6 +15,10 @@ module.exports = appInfo => {
       '.ejs': 'ejs',
     },
   };
-
+  config.alinode = {
+		server: 'wss://agentserver.node.aliyun.com:8080',
+		appid: '84430',
+		secret: 'aca31c5d3bbc4956a2249c7c71e761c7671b4768',
+	};
   return config;
 };
